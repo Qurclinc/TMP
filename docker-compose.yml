@@ -1,0 +1,8 @@
+version: "3.0"
+
+services:
+  website:
+    container_name: test
+    build: .
+    ports:
+      - "56741:56741"
