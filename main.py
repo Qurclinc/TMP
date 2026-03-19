@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "<h1> Aboba </h1>"
+    return "<h1> Aboba 1337!</h1>"
 
 if __name__ == "__main__":
     app.run("0.0.0.0", 56741)
